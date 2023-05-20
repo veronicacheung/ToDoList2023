@@ -14,6 +14,8 @@
 		B26C60532A194FDE0019C26E /* ToDoList2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C60522A194FDE0019C26E /* ToDoList2023Tests.swift */; };
 		B26C605D2A194FDE0019C26E /* ToDoList2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C605C2A194FDE0019C26E /* ToDoList2023UITests.swift */; };
 		B26C605F2A194FDE0019C26E /* ToDoList2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C605E2A194FDE0019C26E /* ToDoList2023UITestsLaunchTests.swift */; };
+		B26C606C2A19509A0019C26E /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C606B2A19509A0019C26E /* ToDoItem.swift */; };
+		B26C606E2A1957B50019C26E /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C606D2A1957B50019C26E /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B26C60582A194FDE0019C26E /* ToDoList2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoList2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26C605C2A194FDE0019C26E /* ToDoList2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList2023UITests.swift; sourceTree = "<group>"; };
 		B26C605E2A194FDE0019C26E /* ToDoList2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B26C606B2A19509A0019C26E /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		B26C606D2A1957B50019C26E /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				B26C60412A194FDB0019C26E /* ToDoList2023App.swift */,
 				B26C60432A194FDB0019C26E /* ContentView.swift */,
+				B26C606D2A1957B50019C26E /* NewToDoView.swift */,
+				B26C606B2A19509A0019C26E /* ToDoItem.swift */,
 				B26C60452A194FDE0019C26E /* Assets.xcassets */,
 				B26C60472A194FDE0019C26E /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			files = (
 				B26C60442A194FDB0019C26E /* ContentView.swift in Sources */,
 				B26C60422A194FDB0019C26E /* ToDoList2023App.swift in Sources */,
+				B26C606C2A19509A0019C26E /* ToDoItem.swift in Sources */,
+				B26C606E2A1957B50019C26E /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
