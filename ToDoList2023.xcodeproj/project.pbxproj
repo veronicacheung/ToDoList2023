@@ -16,6 +16,8 @@
 		B26C605F2A194FDE0019C26E /* ToDoList2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C605E2A194FDE0019C26E /* ToDoList2023UITestsLaunchTests.swift */; };
 		B26C606C2A19509A0019C26E /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C606B2A19509A0019C26E /* ToDoItem.swift */; };
 		B26C606E2A1957B50019C26E /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C606D2A1957B50019C26E /* NewToDoView.swift */; };
+		B26C60762A19D3760019C26E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C60752A19D3760019C26E /* Persistence.swift */; };
+		B26C60792A19D3900019C26E /* To Do List Swift UI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B26C60772A19D3900019C26E /* To Do List Swift UI.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		B26C605E2A194FDE0019C26E /* ToDoList2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B26C606B2A19509A0019C26E /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		B26C606D2A1957B50019C26E /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		B26C60752A19D3760019C26E /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = "../../../../Downloads/To Do List Swift UI/To Do List Swift UI/Persistence.swift"; sourceTree = "<group>"; };
+		B26C60782A19D3900019C26E /* To Do List Swift UI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "To Do List Swift UI.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				B26C60432A194FDB0019C26E /* ContentView.swift */,
 				B26C606D2A1957B50019C26E /* NewToDoView.swift */,
 				B26C606B2A19509A0019C26E /* ToDoItem.swift */,
+				B26C60772A19D3900019C26E /* To Do List Swift UI.xcdatamodeld */,
 				B26C60452A194FDE0019C26E /* Assets.xcassets */,
+				B26C60752A19D3760019C26E /* Persistence.swift */,
 				B26C60472A194FDE0019C26E /* Preview Content */,
 			);
 			path = ToDoList2023;
@@ -265,8 +271,10 @@
 			files = (
 				B26C60442A194FDB0019C26E /* ContentView.swift in Sources */,
 				B26C60422A194FDB0019C26E /* ToDoList2023App.swift in Sources */,
+				B26C60792A19D3900019C26E /* To Do List Swift UI.xcdatamodeld in Sources */,
 				B26C606C2A19509A0019C26E /* ToDoItem.swift in Sources */,
 				B26C606E2A1957B50019C26E /* NewToDoView.swift in Sources */,
+				B26C60762A19D3760019C26E /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +593,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B26C60772A19D3900019C26E /* To Do List Swift UI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B26C60782A19D3900019C26E /* To Do List Swift UI.xcdatamodel */,
+			);
+			currentVersion = B26C60782A19D3900019C26E /* To Do List Swift UI.xcdatamodel */;
+			name = "To Do List Swift UI.xcdatamodeld";
+			path = "../../../../Downloads/To Do List Swift UI/To Do List Swift UI/To Do List Swift UI.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B26C60362A194FDB0019C26E /* Project object */;
 }
