@@ -11,9 +11,6 @@
 		B26C60442A194FDB0019C26E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C60432A194FDB0019C26E /* ContentView.swift */; };
 		B26C60462A194FDE0019C26E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26C60452A194FDE0019C26E /* Assets.xcassets */; };
 		B26C60492A194FDE0019C26E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26C60482A194FDE0019C26E /* Preview Assets.xcassets */; };
-		B26C60532A194FDE0019C26E /* ToDoList2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C60522A194FDE0019C26E /* ToDoList2023Tests.swift */; };
-		B26C605D2A194FDE0019C26E /* ToDoList2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C605C2A194FDE0019C26E /* ToDoList2023UITests.swift */; };
-		B26C605F2A194FDE0019C26E /* ToDoList2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C605E2A194FDE0019C26E /* ToDoList2023UITestsLaunchTests.swift */; };
 		B26C606C2A19509A0019C26E /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C606B2A19509A0019C26E /* ToDoItem.swift */; };
 		B26C606E2A1957B50019C26E /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C606D2A1957B50019C26E /* NewToDoView.swift */; };
 		B26C60762A19D3760019C26E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C60752A19D3760019C26E /* Persistence.swift */; };
@@ -44,10 +41,7 @@
 		B26C60452A194FDE0019C26E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B26C60482A194FDE0019C26E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B26C604E2A194FDE0019C26E /* ToDoList2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoList2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B26C60522A194FDE0019C26E /* ToDoList2023Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList2023Tests.swift; sourceTree = "<group>"; };
 		B26C60582A194FDE0019C26E /* ToDoList2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoList2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B26C605C2A194FDE0019C26E /* ToDoList2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList2023UITests.swift; sourceTree = "<group>"; };
-		B26C605E2A194FDE0019C26E /* ToDoList2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B26C606B2A19509A0019C26E /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		B26C606D2A1957B50019C26E /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 		B26C60752A19D3760019C26E /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = "../../../../Downloads/To Do List Swift UI/To Do List Swift UI/Persistence.swift"; sourceTree = "<group>"; };
@@ -83,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				B26C60402A194FDB0019C26E /* ToDoList2023 */,
-				B26C60512A194FDE0019C26E /* ToDoList2023Tests */,
-				B26C605B2A194FDE0019C26E /* ToDoList2023UITests */,
 				B26C603F2A194FDB0019C26E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,23 +112,6 @@
 				B26C60482A194FDE0019C26E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B26C60512A194FDE0019C26E /* ToDoList2023Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B26C60522A194FDE0019C26E /* ToDoList2023Tests.swift */,
-			);
-			path = ToDoList2023Tests;
-			sourceTree = "<group>";
-		};
-		B26C605B2A194FDE0019C26E /* ToDoList2023UITests */ = {
-			isa = PBXGroup;
-			children = (
-				B26C605C2A194FDE0019C26E /* ToDoList2023UITests.swift */,
-				B26C605E2A194FDE0019C26E /* ToDoList2023UITestsLaunchTests.swift */,
-			);
-			path = ToDoList2023UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B26C60532A194FDE0019C26E /* ToDoList2023Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B26C605D2A194FDE0019C26E /* ToDoList2023UITests.swift in Sources */,
-				B26C605F2A194FDE0019C26E /* ToDoList2023UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
